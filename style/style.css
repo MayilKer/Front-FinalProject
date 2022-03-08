@@ -507,12 +507,16 @@ ul {
   background-color: #29A56C;
 }
 
+#products {
+  background-color: #fafbfc;
+}
+
 #products .container-fluid h1 {
   text-align: center;
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
   margin-bottom: 80px;
-  margin-top: 80px;
+  padding-top: 80px;
   font-size: 48px;
 }
 
@@ -796,12 +800,16 @@ ul {
   color: #3bb77e;
 }
 
+#deals {
+  background-color: #fafbfc;
+}
+
 #deals .container-fluid h1 {
   text-align: center;
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
   margin-bottom: 80px;
-  margin-top: 80px;
+  padding-top: 80px;
   font-size: 48px;
 }
 
@@ -945,6 +953,163 @@ ul {
   background-color: #DEF9EC;
   font-size: 14px;
   font-weight: 700;
+  color: #3BB77E;
+}
+
+#fruits {
+  margin-bottom: 40px;
+}
+
+#fruits .container-fluid .row h4 {
+  font-size: 24px;
+  border-bottom: 1px solid #ececec;
+  position: relative;
+  padding-bottom: 20px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#fruits .container-fluid .row h4::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 3px;
+  background-color: #BCE3C9;
+  bottom: 0;
+  left: 0;
+}
+
+#fruits .container-fluid .row .fruit_content .fruit_main {
+  -webkit-transition: .3s;
+  transition: .3s;
+  margin-bottom: 20px;
+}
+
+#fruits .container-fluid .row .fruit_content .fruit_main:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+#fruits .container-fluid .row .fruit_content .row .box_left a img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#fruits .container-fluid .row .fruit_content .row .box_right h6 a {
+  -webkit-transition: .3s;
+  transition: .3s;
+  font-family: "Quicksand", sans-serif;
+  color: #253D4E;
+  font-weight: 700;
+}
+
+#fruits .container-fluid .row .fruit_content .row .box_right h6 a:hover {
+  color: #3BB77E;
+}
+
+#fruits .container-fluid .row .fruit_content .row .box_right .stars {
+  font-size: 12px;
+}
+
+#fruits .container-fluid .row .fruit_content .row .box_right .stars i {
+  color: #fdcc0d;
+}
+
+#fruits .container-fluid .row .fruit_content .row .box_right .fruit_price {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#fruits .container-fluid .row .fruit_content .row .box_right .fruit_price span {
+  color: #3BB77E;
+  font-size: 18px;
+}
+
+#fruits .container-fluid .row .fruit_content .row .box_right .fruit_price s {
+  margin-left: 7px;
+  font-size: 14px;
+  color: #ADADAD;
+}
+
+footer .footer_top {
+  border-bottom: 1px solid #3bb77e;
+  padding: 30px 0;
+}
+
+footer .footer_top .row .top_start .logo a {
+  display: block;
+  margin-bottom: 15px;
+}
+
+footer .footer_top .row .top_start .logo a img {
+  width: 100%;
+}
+
+footer .footer_top .row .top_start .contact_info {
+  font-size: 15px;
+  color: #253D4E;
+}
+
+footer .footer_top .row .top_start .contact_info li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+footer .footer_top .row .top_start .contact_info li img {
+  max-width: 16px;
+  vertical-align: 0%;
+  margin-right: 8px;
+}
+
+footer .footer_top .row .top_middle h4 {
+  margin: 15px 0 20px 0;
+  font-weight: bold;
+}
+
+footer .footer_top .row .top_middle .footer_list li {
+  display: block;
+  margin: 0 0 13px;
+}
+
+footer .footer_top .row .top_middle .footer_list li a {
+  -webkit-transition: .3s;
+  transition: .3s;
+  font-size: 15px;
+  color: #253D4E;
+  display: block;
+}
+
+footer .footer_top .row .top_middle .footer_list li a:hover {
   color: #3bb77e;
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+footer .footer_top .row .top_links h4 {
+  margin: 15px 0 20px 0;
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
+}
+
+footer .footer_top .row .top_links p {
+  font-size: 15px;
+  color: #253D4E;
+}
+
+footer .footer_top .row .top_links .download_app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 25px 0 33px;
+}
+
+footer .footer_top .row .top_links .download_app a {
+  display: block;
+  margin-right: 5px;
+}
+
+footer .footer_top .row .top_links img {
+  max-width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
