@@ -1985,6 +1985,17 @@ p {
 }
 
 @media (max-width: 450px) {
+  .newsletter_content h2 {
+    font-size: 20px !important;
+  }
+  .newsletter .container-fluid .row .newsletter_inner form input {
+    padding-left: 17px !important;
+    font-size: 15px !important;
+  }
+  .newsletter .container-fluid .row .newsletter_inner form .btn {
+    padding: 20px 25px !important;
+    right: 23px !important;
+  }
   .ic-hid2 {
     display: none !important;
   }

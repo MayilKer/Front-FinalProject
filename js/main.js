@@ -9,3 +9,4 @@ $(function() {
         $('.overlay, .sidebar').toggleClass('active');
     })
 });
+

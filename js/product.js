@@ -86,3 +86,4 @@ arrowDo.onclick = function(){
     snum.innerHTML=procou;
     }
 }
+
