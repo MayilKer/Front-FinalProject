@@ -401,11 +401,10 @@
                 }
 
                 form {
-                    max-width: 520px;
+                    max-width: 420px;
                     border-radius: 50px;
                     box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.07);
                     background-color: #fff;
-                    position: relative;
                     z-index: 9;
                     i {
                         position: absolute;
@@ -432,12 +431,12 @@
                         outline: none;
                         background-color: #3BB77E;
                         float: right;
+                        z-index: 4;
                         padding: 20px 40px;
                         color: #fff;
                         border-radius: 50px;
                         transition: .3s;
                         font-family: "Quicksand", sans-serif;
-            
                         &:hover {
                             background-color: #29A56C;
                         }
@@ -488,5 +487,11 @@
                 }
             }
         }
+    }
+}
+
+@media(max-width:578px){
+    .btn{
+        position: absolute !important;
     }
 }

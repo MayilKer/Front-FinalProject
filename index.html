@@ -7,13 +7,214 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nest - Multipurpose eCommerce HTML Template</title>
     <link rel="stylesheet" href="./style/bootstrap.css">
-    <link rel="icon" href="./images/logo.svg">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Quicksand:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
+    <div class="overlay"></div>
+
+    <div class="sidebar">
+        <div class="sidebar-inner">
+            <div class="top">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="">
+                </div>
+                <div class="close" id="btn-close-navbar">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="search">
+                    <input type="text" placeholder="Search for items...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="sidebar-menu">
+                    <nav>
+                        <ul class="navigation">
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Home</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Home 1</a></li>
+                                    <li><a href="#">Home 2</a></li>
+                                    <li><a href="#">Home 3</a></li>
+                                    <li><a href="#">Home 4</a></li>
+                                    <li><a href="#">Home 5</a></li>
+                                    <li><a href="#">Home 6</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="./shop.html">Shop</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Shop Grid - Right Sidebar</a></li>
+                                    <li><a href="#">Shop Grid - Left Sidebar</a></li>
+                                    <li><a href="#">Shop List - Right Sidebar</a></li>
+                                    <li><a href="#">Shop List - Left Sidebar</a></li>
+                                    <li><a href="./shop.html">Shop - Wide</a></li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Single Product</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Product – Right Sidebar</a></li>
+                                            <li><a href="#">Product – Left Sidebar</a></li>
+                                            <li><a href="#">Product – No Sidebar</a></li>
+                                            <li><a href="#">Product – Vendor Info</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Shop - Filter</a></li>
+                                    <li><a href="#">Shop - Wishlist</a></li>
+                                    <li><a href="#">Shop - Cart</a></li>
+                                    <li><a href="#">Shop - Checkout</a></li>
+                                    <li><a href="#">Shop - Compare</a></li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Shop Invoice</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Shop Invoice 1</a></li>
+                                            <li><a href="#">Shop Invoice 2</a></li>
+                                            <li><a href="#">Shop Invoice 3</a></li>
+                                            <li><a href="#">Shop Invoice 4</a></li>
+                                            <li><a href="#">Shop Invoice 5</a></li>
+                                            <li><a href="#">Shop Invoice 6</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Vendors</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Vendors Grid</a></li>
+                                    <li><a href="#">Vendors List</a></li>
+                                    <li><a href="#">Vendor Details 01</a></li>
+                                    <li><a href="#">Vendor Details 02</a></li>
+                                    <li><a href="#">Vendor Dashboard</a></li>
+                                    <li><a href="#">Vendor Guide</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Mega Menu</a>
+                                <ul class="dropdown">
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Women's Fashion</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Dresses</a></li>
+                                            <li><a href="#">Blouses & Shirts</a></li>
+                                            <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                            <li><a href="#">Women's Sets</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Men's Fashion</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Jackets</a></li>
+                                            <li><a href="#">Casual Faux Leather</a></li>
+                                            <li><a href="#">Genuine Leather</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Technology</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Gaming Laptops</a></li>
+                                            <li><a href="#">Ultraslim Laptops</a></li>
+                                            <li><a href="#">Tablets</a></li>
+                                            <li><a href="#">Laptop Accessories</a></li>
+                                            <li><a href="#">Tablet Accessories</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Blog</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Blog Category Grid</a></li>
+                                    <li><a href="#">Blog Category List</a></li>
+                                    <li><a href="#">Blog Category Big</a></li>
+                                    <li><a href="#">Blog Category Wide</a></li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Single Product Layout</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Left Sidebar</a></li>
+                                            <li><a href="#">Right Sidebar</a></li>
+                                            <li><a href="#">No Sidebar</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Pages</a>
+                                <ul class="dropdown">
+                                    <li><a href="./about.html">About Us</a></li>
+                                    <li><a href="./contact.html">Contact</a></li>
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="#">Login</a></li>
+                                    <li><a href="#">Register</a></li>
+                                    <li><a href="#">Purchase Guide</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms of Service</a></li>
+                                    <li><a href="#">404 Page</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Language</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">English</a></li>
+                                    <li><a href="#">French</a></li>
+                                    <li><a href="#">German</a></li>
+                                    <li><a href="#">Spanish</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="info">
+                    <a href="#">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Our location
+                    </a>
+                    <a href="#">
+                        <i class="fa-regular fa-user"></i>
+                        Log In / Sign Up
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-headphones"></i>
+                        (+01) - 2345 - 6789 
+                    </a>
+                </div>
+                <div class="socials">
+                    <h6>Follow Us</h6>
+                    <a href="#">
+                        <img src="img/icon-facebook-white.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/icon-twitter-white.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/icon-instagram-white.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/icon-pinterest-white.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/icon-youtube-white.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     <header id="navbar">
         <div class="container-fluid">
             <div class="top">
@@ -115,21 +316,28 @@
             </div>
             <div class="middle">
                 <div class="row">
-                    <div class="col-lg-2">
-                        <div class="navbarMidleImg">
-                            <img src="./images/logo.svg" alt="">
+                    <div class="col-1 d-xl-none d-md-none d-lg-none click">
+                        <div class="navbar-collapse-button" id="btn-open-navbar">
+                            <i class="fa-solid fa-bars"></i>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-8 respon_a">
+                        <a class="img_ref" href="./index.html">
+                            <div class="navbarMidleImg">
+                                <img src="./images/logo.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 search_res">
                         <form action="#" class="d-flex search_middle">
                             <span>All Categores <i class="fa-solid fa-angle-down ps-2"></i></span>
                             <input type="text" placeholder="Search for items...">
                             <i class="fas fa-search search"></i>
                         </form>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-5 col-sm-5 col-3">
                         <div class="navbarItems">
-                            <div class="itemBox">
+                            <div class="itemBox ic-hid">
                                 <a class="iconMiddle" href="#">
                                     <img src="./images/icon-compare.svg" alt="">
                                     <span class="iconNum">3</span>
@@ -138,7 +346,7 @@
                                     Compare
                                 </a>
                             </div>
-                            <div class="itemBox">
+                            <div class="itemBox ic-hid2">
                                 <a class="iconMiddle" href="#">
                                     <img src="./images/icon-heart.svg" alt="">
                                     <span class="iconNum">6</span>
@@ -148,15 +356,15 @@
                                 </a>
                             </div>
                             <div class="itemBox">
-                                <a class="iconMiddle" href="#">
+                                <a class="iconMiddle" href="./cart.html">
                                     <img src="./images/icon-cart.svg" alt="">
-                                    <span class="iconNum">2</span>
+                                    <span class="iconNum" id="product_count">0</span>
                                 </a>
-                                <a class="spanMiddle" href="#">
+                                <a class="spanMiddle" href="./cart.html">
                                     Cart
                                 </a>
                             </div>
-                            <div class="itemBox">
+                            <div class="itemBox ic-hid">
                                 <a href="#">
                                     <img src="./images/icon-user.svg" alt="">
                                 </a>
@@ -173,7 +381,7 @@
         <div class="container-fluid">
             <div class="bottom">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 hide">
                         <div class="navbarBottomLeft">
                             <a href="">
                                 <span><i class="fab fa-app-store-ios"></i></span>
@@ -184,7 +392,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-6 ps-0 pe-0">
+                    <div class="col-lg-6 ps-0 pe-0 nav_res">
                         <div class="navbarBottomMiddle">
                             <ul class="d-flex">
                                 <li class="HotDeals">
@@ -225,7 +433,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="./shop.html">
                                         Shop
                                         <i class="fa-solid fa-angle-down"></i>
                                     </a>
@@ -251,7 +459,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="./shop.html">
                                                 Shop - Wide
                                             </a>
                                         </li>
@@ -376,86 +584,65 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li>
+                                <li style="position: static;">
                                     <a href="">
                                         Mega menu
+                                        <i class="fa-solid fa-angle-down"></i>
                                     </a>
-                                    <!-- <ul class="mega-menu">
-                                        <li>
-                                            <a href="">
-                                                Fruit & Vegetables
-                                            </a>
+                                    <ul class="mega-menu">
+                                        <li class="sub-mega-menu">
+                                            <a href="#">Fruit & Vegetables</a>
                                             <ul>
-                                                <li>
-                                                    <a href="">
-                                                        Meat & Poultry
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="">
-                                                        Fresh Vegetables
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="">
-                                                        Herbs & Seasonings
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="">
-                                                        Cuts & Sprouts
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="">
-                                                        Exotic Fruits & Veggies
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="">
-                                                        Packaged Produce
-                                                    </a>
-                                                </li>
+                                                <li><a href="#">Meat & Poultry</a></li>
+                                                <li><a href="#">Fresh Vegetables</a></li>
+                                                <li><a href="#">Herbs & Seasonings</a></li>
+                                                <li><a href="#">Cuts & Sprouts</a></li>
+                                                <li><a href="#">Exotic Fruits & Veggies</a></li>
+                                                <li><a href="#">Packaged Produce</a></li>
                                             </ul>
                                         </li>
-                                        <li>
-                                            <a href="">Breakfast & Dairy</a>
+                                        <li class="sub-mega-menu">
+                                            <a href="#">Breakfast & Dairy</a>
                                             <ul>
-                                                <li>
-                                                    <a href="">
-                                                        Milk & Flavoured Milk
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="">
-                                                        Butter and Margarine
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="">
-                                                        Eggs Substitutes
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="">
-
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="">
-
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="">
-
-                                                    </a>
-                                                </li>
+                                                <li><a href="#">Milk & Flavoured Milk</a></li>
+                                                <li><a href="#">Butter and Margarine</a></li>
+                                                <li><a href="#">Eggs Substitutes</a></li>
+                                                <li><a href="#">Marmalades</a></li>
+                                                <li><a href="#">Sour Cream</a></li>
+                                                <li><a href="#">Cheese</a></li>
                                             </ul>
                                         </li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul> -->
+                                        <li class="sub-mega-menu">
+                                            <a href="#">Meat & Seafood</a>
+                                            <ul>
+                                                <li><a href="#">Breakfast Sausage</a></li>
+                                                <li><a href="#">Dinner Sausage</a></li>
+                                                <li><a href="#">Chicken</a></li>
+                                                <li><a href="#">Sliced Deli Meat</a></li>
+                                                <li><a href="#">Wild Caught Fillets</a></li>
+                                                <li><a href="#">Crab and Shellfish</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub-mega-menu mega-img">
+                                            <div class="menu-banner-wrapper">
+                                                <a href="#">
+                                                    <img src="./images/banner-menu.png" alt="">
+                                                </a>
+                                                <div class="content">
+                                                    <h4>Hot Deals</h4>
+                                                    <h3>Don't miss <br> Trending</h3>
+                                                    <p>Save to 50%</p>
+                                                    <button class="mega-btn" type="button">Shop now</button>
+                                                </div>
+                                                <div class="discount">
+                                                    <h3>
+                                                        <span>25%</span>
+                                                        off
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li>
                                     <a href="">
@@ -519,7 +706,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="./contact.html">
                                                 Contact
                                             </a>
                                         </li>
@@ -561,7 +748,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="./contact.html">
                                         Contact
                                     </a>
                                 </li>
@@ -618,18 +805,18 @@
         <div class="container-fluid">
             <h1 class="top_text">Trending items</h1>
             <div class="row gy-4">
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="1">
                         <div class="product_top">
-                            <div class="sticker">
-                                <span class="hot">Hot</span>
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-1-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-1-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                                <span class="hot">Hot</span>
+                            </div>
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -657,9 +844,7 @@
                                     Snack
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>Seeds of Change Organic Quinoe Naturel</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -682,7 +867,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -691,18 +876,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="2">
                         <div class="product_top">
-                            <div class="sticker">
-                                <span class="sale">Sale</span>
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-2-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-2-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                                <span class="sale">Sale</span>
+                            </div>
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -727,12 +912,10 @@
                         <div class="product_bottom">
                             <div class="pro_bot_intro">
                                 <a href="">
-                                    Snack
+                                    Hodo Foods
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>All Natural Italian-Style Chicken Meatballs</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -745,17 +928,17 @@
                                 <span>
                                     By
                                     <a href="">
-                                        NestFood
+                                        Stouffer
                                     </a>
                                 </span>
                             </div>
                             <div class="pro_bottom d-flex">
                                 <div class="left">
-                                    <span>$28.85</span>
-                                    <s>$32.8</s>
+                                    <span>$58.85</span>
+                                    <s>$42.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -764,18 +947,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="3">
                         <div class="product_top">
-                            <div class="sticker">
-                                <span class="new">New</span>
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-3-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-3-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                                <span class="new">New</span>
+                            </div>
+
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -803,9 +987,7 @@
                                     Snack
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>Angie’s Boomchickapop Sweet & Salty</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -818,7 +1000,7 @@
                                 <span>
                                     By
                                     <a href="">
-                                        NestFood
+                                        StarKist
                                     </a>
                                 </span>
                             </div>
@@ -828,7 +1010,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -837,12 +1019,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="4">
                         <div class="product_top">
-                            <!-- <div class="sticker">
-                                <span>Hot</span>
-                            </div> -->
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-4-1.jpg" alt="">
@@ -873,12 +1052,10 @@
                         <div class="product_bottom">
                             <div class="pro_bot_intro">
                                 <a href="">
-                                    Snack
+                                    Vegetables
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>Foster Farms Takeout Crispy Classic</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -901,7 +1078,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -910,18 +1087,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="5">
                         <div class="product_top">
-                            <div class="sticker">
-                                <span class="discount">-14%</span>
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-5-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-5-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                                <span class="discount">-14%</span>
+                            </div>
+
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -946,12 +1124,10 @@
                         <div class="product_bottom">
                             <div class="pro_bot_intro">
                                 <a href="">
-                                    Snack
+                                    Pet Foods
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>Blue Diamond Almonds Lightly Naturel</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -974,7 +1150,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -983,17 +1159,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="6">
                         <div class="product_top">
-                            <div class="sticker">
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-6-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-6-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                            </div>
+
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -1018,12 +1195,10 @@
                         <div class="product_bottom">
                             <div class="pro_bot_intro">
                                 <a href="">
-                                    Snack
+                                    Hodo Foods
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>Chobani Complete Vanilla Greek Bottle</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1046,7 +1221,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -1055,17 +1230,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="7">
                         <div class="product_top">
-                            <div class="sticker">
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-7-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-7-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                            </div>
+
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -1090,12 +1266,10 @@
                         <div class="product_bottom">
                             <div class="pro_bot_intro">
                                 <a href="">
-                                    Snack
+                                    Meats
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>Canada Dry Ginger Ale – 2 L Bottle</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1118,7 +1292,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -1127,18 +1301,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="8">
                         <div class="product_top">
-                            <div class="sticker">
-                                <span class="sale">Sale</span>
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-8-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-8-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                                <span class="sale">Sale</span>
+                            </div>
+
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -1166,9 +1341,7 @@
                                     Snack
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>Encore Seafoods Stuffed Alaskan</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1191,7 +1364,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -1200,18 +1373,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="9">
                         <div class="product_top">
-                            <div class="sticker">
-                                <span class="hot">Hot</span>
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-9-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-9-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                                <span class="hot">Hot</span>
+                            </div>
+
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -1236,12 +1410,10 @@
                         <div class="product_bottom">
                             <div class="pro_bot_intro">
                                 <a href="">
-                                    Snack
+                                    Coffes
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>Gorton’s Beer Battered Fish Fillets</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1254,7 +1426,7 @@
                                 <span>
                                     By
                                     <a href="">
-                                        NestFood
+                                        Old El Paso
                                     </a>
                                 </span>
                             </div>
@@ -1264,7 +1436,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -1273,17 +1445,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="10">
                         <div class="product_top">
-                            <div class="sticker">
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-10-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-10-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                            </div>
+
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -1308,12 +1481,10 @@
                         <div class="product_bottom">
                             <div class="pro_bot_intro">
                                 <a href="">
-                                    Snack
+                                    Cream
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2> Haagen-Dazs Caramel Cone Ice Cream</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1326,7 +1497,7 @@
                                 <span>
                                     By
                                     <a href="">
-                                        NestFood
+                                        Tyson
                                     </a>
                                 </span>
                             </div>
@@ -1336,7 +1507,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -1345,18 +1516,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="1">
                         <div class="product_top">
-                            <div class="sticker">
-                                <span class="hot">Hot</span>
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-1-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-1-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                                <span class="hot">Hot</span>
+                            </div>
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -1384,9 +1555,7 @@
                                     Snack
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>Seeds of Change Organic Quinoe Naturel</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1409,7 +1578,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -1418,18 +1587,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="2">
                         <div class="product_top">
-                            <div class="sticker">
-                                <span class="sale">Sale</span>
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-2-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-2-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                                <span class="sale">Sale</span>
+                            </div>
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -1454,12 +1623,10 @@
                         <div class="product_bottom">
                             <div class="pro_bot_intro">
                                 <a href="">
-                                    Snack
+                                    Hodo Foods
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>All Natural Italian-Style Chicken Meatballs</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1472,17 +1639,17 @@
                                 <span>
                                     By
                                     <a href="">
-                                        NestFood
+                                        Stouffer
                                     </a>
                                 </span>
                             </div>
                             <div class="pro_bottom d-flex">
                                 <div class="left">
-                                    <span>$28.85</span>
-                                    <s>$32.8</s>
+                                    <span>$58.85</span>
+                                    <s>$42.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -1491,18 +1658,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="3">
                         <div class="product_top">
-                            <div class="sticker">
-                                <span class="new">New</span>
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-3-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-3-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                                <span class="new">New</span>
+                            </div>
+
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -1530,9 +1698,7 @@
                                     Snack
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>Angie’s Boomchickapop Sweet & Salty</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1545,7 +1711,7 @@
                                 <span>
                                     By
                                     <a href="">
-                                        NestFood
+                                        StarKist
                                     </a>
                                 </span>
                             </div>
@@ -1555,7 +1721,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -1564,12 +1730,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="4">
                         <div class="product_top">
-                            <!-- <div class="sticker">
-                                <span>Hot</span>
-                            </div> -->
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-4-1.jpg" alt="">
@@ -1600,12 +1763,10 @@
                         <div class="product_bottom">
                             <div class="pro_bot_intro">
                                 <a href="">
-                                    Snack
+                                    Vegetables
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>Foster Farms Takeout Crispy Classic</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1628,7 +1789,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -1637,18 +1798,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="5">
                         <div class="product_top">
-                            <div class="sticker">
-                                <span class="discount">-14%</span>
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-5-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-5-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                                <span class="discount">-14%</span>
+                            </div>
+
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -1673,12 +1835,10 @@
                         <div class="product_bottom">
                             <div class="pro_bot_intro">
                                 <a href="">
-                                    Snack
+                                    Pet Foods
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>Blue Diamond Almonds Lightly Naturel</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1701,7 +1861,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -1710,17 +1870,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="6">
                         <div class="product_top">
-                            <div class="sticker">
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-6-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-6-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                            </div>
+
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -1745,12 +1906,10 @@
                         <div class="product_bottom">
                             <div class="pro_bot_intro">
                                 <a href="">
-                                    Snack
+                                    Hodo Foods
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>Chobani Complete Vanilla Greek Bottle</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1773,7 +1932,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -1782,17 +1941,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="7">
                         <div class="product_top">
-                            <div class="sticker">
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-7-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-7-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                            </div>
+
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -1817,12 +1977,10 @@
                         <div class="product_bottom">
                             <div class="pro_bot_intro">
                                 <a href="">
-                                    Snack
+                                    Meats
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>Canada Dry Ginger Ale – 2 L Bottle</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1845,7 +2003,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -1854,18 +2012,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="8">
                         <div class="product_top">
-                            <div class="sticker">
-                                <span class="sale">Sale</span>
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-8-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-8-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                                <span class="sale">Sale</span>
+                            </div>
+
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -1893,9 +2052,7 @@
                                     Snack
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>Encore Seafoods Stuffed Alaskan</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1918,7 +2075,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -1927,18 +2084,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="9">
                         <div class="product_top">
-                            <div class="sticker">
-                                <span class="hot">Hot</span>
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-9-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-9-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                                <span class="hot">Hot</span>
+                            </div>
+
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -1963,12 +2121,10 @@
                         <div class="product_bottom">
                             <div class="pro_bot_intro">
                                 <a href="">
-                                    Snack
+                                    Coffes
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2>Gorton’s Beer Battered Fish Fillets</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1981,7 +2137,7 @@
                                 <span>
                                     By
                                     <a href="">
-                                        NestFood
+                                        Old El Paso
                                     </a>
                                 </span>
                             </div>
@@ -1991,7 +2147,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -2000,17 +2156,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1-5">
-                    <div class="product_card">
+                <div class="col-lg-1-5 col-md-4 col-sm-6">
+                    <div class="product_card" data-id="10">
                         <div class="product_top">
-                            <div class="sticker">
-                            </div>
                             <div class="product_image">
                                 <a href="">
                                     <img class="first_image" src="./images/product-10-1.jpg" alt="">
                                     <img class="second_image" src="./images/product-10-2.jpg" alt="">
                                 </a>
                             </div>
+                            <div class="sticker">
+                            </div>
+
                             <div class="product_hover_center">
                                 <a class="action_btn" href="">
                                     <i class="far fa-heart"></i>
@@ -2035,12 +2192,10 @@
                         <div class="product_bottom">
                             <div class="pro_bot_intro">
                                 <a href="">
-                                    Snack
+                                    Cream
                                 </a>
                             </div>
-                            <h2>
-                                Seeds of Change Organic Quinoe Naturel
-                            </h2>
+                            <h2> Haagen-Dazs Caramel Cone Ice Cream</h2>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -2053,7 +2208,7 @@
                                 <span>
                                     By
                                     <a href="">
-                                        NestFood
+                                        Tyson
                                     </a>
                                 </span>
                             </div>
@@ -2063,7 +2218,7 @@
                                     <s>$32.8</s>
                                 </div>
                                 <div class="right">
-                                    <a href="">
+                                    <a href="#" class="addBasket">
                                         <i class="fas fa-shopping-cart"></i>
                                         Add
                                     </a>
@@ -2079,7 +2234,7 @@
         <div class="container-fluid">
             <h1 class="text-center">Deals of the day</h1>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="deals_box">
                         <div class="deals_top">
                             <div class="img_box">
@@ -2161,7 +2316,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="deals_box">
                         <div class="deals_top">
                             <div class="img_box">
@@ -2243,7 +2398,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="deals_box">
                         <div class="deals_top">
                             <div class="img_box">
@@ -2326,7 +2481,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 ic-hid">
                     <div class="deals_box">
                         <div class="deals_top">
                             <div class="img_box">
@@ -2414,7 +2569,7 @@
     <section id="fruits">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-3 col-sm-3">
                     <h4>Top Selling</h4>
                     <div class="fruit_content">
                         <div class="row fruit_main">
@@ -2451,7 +2606,7 @@
                             <div class="col-lg-4">
                                 <div class="box_left">
                                     <a href="">
-                                        <img src="./images/thumbnail-1.jpg" alt="">
+                                        <img src="./images/thumbnail-2.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -2481,7 +2636,7 @@
                             <div class="col-lg-4">
                                 <div class="box_left">
                                     <a href="">
-                                        <img src="./images/thumbnail-1.jpg" alt="">
+                                        <img src="./images/thumbnail-3.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -2509,14 +2664,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-3 col-sm-3">
                     <h4>Top Selling</h4>
                     <div class="fruit_content">
                         <div class="row fruit_main">
                             <div class="col-lg-4">
                                 <div class="box_left">
                                     <a href="">
-                                        <img src="./images/thumbnail-1.jpg" alt="">
+                                        <img src="./images/thumbnail-4.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -2546,7 +2701,7 @@
                             <div class="col-lg-4">
                                 <div class="box_left">
                                     <a href="">
-                                        <img src="./images/thumbnail-1.jpg" alt="">
+                                        <img src="./images/thumbnail-5.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -2576,7 +2731,7 @@
                             <div class="col-lg-4">
                                 <div class="box_left">
                                     <a href="">
-                                        <img src="./images/thumbnail-1.jpg" alt="">
+                                        <img src="./images/thumbnail-6.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -2604,14 +2759,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-3 col-sm-3">
                     <h4>Top Selling</h4>
                     <div class="fruit_content">
                         <div class="row fruit_main">
                             <div class="col-lg-4">
                                 <div class="box_left">
                                     <a href="">
-                                        <img src="./images/thumbnail-1.jpg" alt="">
+                                        <img src="./images/thumbnail-7.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -2641,7 +2796,7 @@
                             <div class="col-lg-4">
                                 <div class="box_left">
                                     <a href="">
-                                        <img src="./images/thumbnail-1.jpg" alt="">
+                                        <img src="./images/thumbnail-8.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -2671,7 +2826,7 @@
                             <div class="col-lg-4">
                                 <div class="box_left">
                                     <a href="">
-                                        <img src="./images/thumbnail-1.jpg" alt="">
+                                        <img src="./images/thumbnail-9.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -2699,14 +2854,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-3 col-sm-3">
                     <h4>Top Selling</h4>
                     <div class="fruit_content">
                         <div class="row fruit_main">
                             <div class="col-lg-4">
                                 <div class="box_left">
                                     <a href="">
-                                        <img src="./images/thumbnail-1.jpg" alt="">
+                                        <img src="./images/thumbnail-10.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -2736,7 +2891,7 @@
                             <div class="col-lg-4">
                                 <div class="box_left">
                                     <a href="">
-                                        <img src="./images/thumbnail-1.jpg" alt="">
+                                        <img src="./images/thumbnail-11.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -2766,7 +2921,7 @@
                             <div class="col-lg-4">
                                 <div class="box_left">
                                     <a href="">
-                                        <img src="./images/thumbnail-1.jpg" alt="">
+                                        <img src="./images/thumbnail-12.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -2816,7 +2971,7 @@
                             <li>
                                 <img src="./images/icon-location.svg" alt="">
                                 <strong>
-                                    Address: 
+                                    Address:
                                 </strong>
                                 <span>
                                     5171 W Campbell Ave Kent, Utah 53127 United States
@@ -2899,42 +3054,86 @@
                 <div class="col-lg-2">
                     <div class="top_middle">
                         <h4>
-                            Company
+                            Account
                         </h4>
                         <ul class="footer_list">
                             <li>
                                 <a href="">
-                                    About Us
+                                    Sign In
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    Delivery Information
+                                    View Cart
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    Privacy Policy
+                                    My Wishlist
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    Terms & Conditions
+                                    Track My Order
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    Contact Us
+                                    Help Ticket
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    Support Center
+                                    Shipping Details
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    Careers
+                                    Compare products
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="top_middle">
+                        <h4>
+                            Corporate
+                        </h4>
+                        <ul class="footer_list">
+                            <li>
+                                <a href="">
+                                    Become a Vendor
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Affiliate Program
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Farm Business
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Farm Careers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Our Suppliers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Accessibility
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Promotions
                                 </a>
                             </li>
                         </ul>
@@ -2948,81 +3147,37 @@
                         <ul class="footer_list">
                             <li>
                                 <a href="">
-                                    About Us
+                                    Popular
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    Delivery Information
+                                    Milk & Flavoured Milk
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    Privacy Policy
+                                    Butter and Margarine
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    Terms & Conditions
+                                    Eggs Substitutes
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    Contact Us
+                                    Marmalades
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    Support Center
+                                    Sour Cream and Dips
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    Careers
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="top_middle">
-                        <h4>
-                            Company
-                        </h4>
-                        <ul class="footer_list">
-                            <li>
-                                <a href="">
-                                    About Us
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    Delivery Information
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    Privacy Policy
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    Terms & Conditions
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    Contact Us
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    Support Center
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    Careers
+                                    Tea & Kombucha
                                 </a>
                             </li>
                         </ul>
@@ -3059,7 +3214,7 @@
                 <div class="col-lg-4">
                     <div class="foot_bottom_left">
                         <p>
-                            © 2021, 
+                            © 2021,
                             <strong class="own_color">Nest</strong>
                             - HTML Ecommerce Template
                             <br>
@@ -3120,6 +3275,8 @@
         </div>
     </div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="./js/main.js"></script>
+<script src="./js/basket.js"></script>
 
 </html>
